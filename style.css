@@ -1,0 +1,120 @@
+body {
+    background-color: rgba(197, 196, 185, 0.788);
+    margin: 0;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+
+a {
+    color: rgb(78, 78, 78);
+}
+
+header {
+    height: 101px;
+    z-index: 101;
+    position: relative;
+    box-shadow: 0 8px 3px rgb(0 0 0  / 10%), 0 5px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+}
+
+.logo img {
+    height: 100%;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.header-container {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+.left-nav nav ul li:hover {
+    color: rgb(60, 161, 106);
+    cursor: pointer;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.find-store:hover {
+    color: rgb(60, 161, 106);
+    cursor: pointer;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    margin-right: 16px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+}
+
+.join-now {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    background-color: rgb(105, 105, 105);
+    color: #fff;
+    transition: all 0.3s ease;
+    
+}
+
+.sign-in:hover {
+    cursor: pointer;
+    color: #175343;
+    background-color: rgba(177, 177, 177, 0.815);
+    padding: 10px 20px;
+}
+
+.join-now:hover {
+    background-color: rgb(206, 206, 206);
+    color: #1e3932;
+    cursor: pointer;
+    padding: 10px 20px;
+}
